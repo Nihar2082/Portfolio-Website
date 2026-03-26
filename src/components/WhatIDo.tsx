@@ -87,24 +87,23 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>DEVELOP</h3>
-              <h4>Description</h4>
+              <h3>SIMULATE</h3>
+              <h4>Computational Engineering</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae.
+                I run advanced simulations for metal forming, fluid dynamics,
+                and structural analysis using industry-leading tools to optimize
+                designs and manufacturing processes.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">JavaScript</div>
-                <div className="what-tags">TypeScript</div>
-                <div className="what-tags">Three.js</div>
-                <div className="what-tags">React</div>
-                <div className="what-tags">Css</div>
-                <div className="what-tags">Node.js</div>
-                <div className="what-tags">Next.js</div>
-                <div className="what-tags">Express.js</div>
-                <div className="what-tags">PHP</div>
-                <div className="what-tags">MySql</div>
+                <div className="what-tags">LS-DYNA</div>
+                <div className="what-tags">OpenFOAM</div>
+                <div className="what-tags">ParaView</div>
+                <div className="what-tags">Python</div>
+                <div className="what-tags">MATLAB</div>
+                <div className="what-tags">cfMesh</div>
+                <div className="what-tags">CloudCompare</div>
+                <div className="what-tags">Meshroom</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -128,22 +127,23 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>DESIGN</h3>
-              <h4>Description</h4>
+              <h3>ROBOTICS</h3>
+              <h4>Automation & AI</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae
+                I develop robotic systems using ROS, integrate neural networks
+                for object recognition, and build intelligent automation
+                solutions for real-world applications.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
+                <div className="what-tags">ROS</div>
+                <div className="what-tags">Python</div>
+                <div className="what-tags">YOLO</div>
+                <div className="what-tags">NAO Robot</div>
+                <div className="what-tags">QiChat</div>
                 <div className="what-tags">Blender</div>
-                <div className="what-tags">Zbrush</div>
-                <div className="what-tags">UI Design</div>
-                <div className="what-tags">Motion</div>
-                <div className="what-tags">Rigging</div>
-                <div className="what-tags">3D Animation</div>
-                <div className="what-tags">Character Design</div>
-                <div className="what-tags">Modelling</div>
+                <div className="what-tags">CAD</div>
+                <div className="what-tags">FFmpeg</div>
               </div>
               <div className="what-arrow"></div>
             </div>

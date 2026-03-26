@@ -6,9 +6,12 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-          dolores numquam iusto Ratione earum ducimus autem id iure pariatur
-          dolorum quae maiores.
+          Welcome to my personal portfolio! I'm Nihar Patel, an Engineer with a
+          passion for bridging theory and practice. I specialize in simulation,
+          robotics, CAD, and computational engineering. Whether it's optimizing
+          metal forming processes, programming robots, or running fluid dynamics
+          simulations, I love turning complex engineering challenges into
+          practical solutions.
         </p>
       </div>
     </div>

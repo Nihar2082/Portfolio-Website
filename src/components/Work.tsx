@@ -53,23 +53,76 @@ const Work = () => {
           My <span>Work</span>
         </h2>
         <div className="work-flex">
-          {[...Array(6)].map((_value, index) => (
-            <div className="work-box" key={index}>
-              <div className="work-info">
-                <div className="work-title">
-                  <h3>0{index + 1}</h3>
-
-                  <div>
-                    <h4>Project Name</h4>
-                    <p>Category</p>
-                  </div>
+          <div className="work-box">
+            <div className="work-info">
+              <div className="work-title">
+                <h3>01</h3>
+                <div>
+                  <h4>Metal Forming Simulation</h4>
+                  <p>Simulation</p>
                 </div>
-                <h4>Tools and features</h4>
-                <p>Javascript, TypeScript, React, Threejs</p>
               </div>
-              <WorkImage image="/images/placeholder.webp" alt="" />
+              <h4>Tools and features</h4>
+              <p>LS-DYNA, Adaptive Meshing, Deep-Drawing, Springback Analysis</p>
             </div>
-          ))}
+            <WorkImage image="/images/placeholder.webp" alt="Metal Forming Simulation" />
+          </div>
+          <div className="work-box">
+            <div className="work-info">
+              <div className="work-title">
+                <h3>02</h3>
+                <div>
+                  <h4>Planar Robot Kinematics</h4>
+                  <p>Robotics</p>
+                </div>
+              </div>
+              <h4>Tools and features</h4>
+              <p>ROS, Python, Forward Kinematics, 3-DOF Planar Robot</p>
+            </div>
+            <WorkImage image="/images/placeholder.webp" alt="Planar Robot Kinematics" link="https://github.com/Nihar2082" />
+          </div>
+          <div className="work-box">
+            <div className="work-info">
+              <div className="work-title">
+                <h3>03</h3>
+                <div>
+                  <h4>NAO Robot Object Recognition</h4>
+                  <p>AI & Robotics</p>
+                </div>
+              </div>
+              <h4>Tools and features</h4>
+              <p>YOLO, Neural Networks, QiChat, NAO Robot, Python</p>
+            </div>
+            <WorkImage image="/images/placeholder.webp" alt="NAO Robot Object Recognition" />
+          </div>
+          <div className="work-box">
+            <div className="work-info">
+              <div className="work-title">
+                <h3>04</h3>
+                <div>
+                  <h4>Automated 3D Model Comparison</h4>
+                  <p>3D Modelling</p>
+                </div>
+              </div>
+              <h4>Tools and features</h4>
+              <p>Meshroom, CloudCompare, Blender, Photogrammetry, FFmpeg</p>
+            </div>
+            <WorkImage image="/images/placeholder.webp" alt="3D Model Comparison" link="https://github.com/Nihar2082" />
+          </div>
+          <div className="work-box">
+            <div className="work-info">
+              <div className="work-title">
+                <h3>05</h3>
+                <div>
+                  <h4>Fluid Dynamics Simulation</h4>
+                  <p>CFD</p>
+                </div>
+              </div>
+              <h4>Tools and features</h4>
+              <p>OpenFOAM, ParaView, cfMesh, Pipe Flow Analysis</p>
+            </div>
+            <WorkImage image="/images/placeholder.webp" alt="Fluid Dynamics Simulation" link="https://github.com/Nihar2082" />
+          </div>
         </div>
       </div>
     </div>
